@@ -1,0 +1,1 @@
+in gitignore file we add files which we dont want to be pushed

@@ -1,0 +1,19 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "firstserver.js",
+  "scripts": {
+    "start": "node firstserver.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "anurag ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
