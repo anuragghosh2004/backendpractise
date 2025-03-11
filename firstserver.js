@@ -51,6 +51,9 @@ res.send("ami khub bhalo");//eikhane amra html code o send korte pari
 app.get("/github",(req,res)=>{
     res.send(githubdata);
 })
+app.get('/temper',(req,res)=>{
+res.send("hirimba");
+});
 app.listen(process.env.PORT,()=>{
     console.log(`example app listening to port ${port} `);
 });
